@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Jennifer</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="about.html">About Me</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="experience.html">Experience</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="eds124br.html">Teaching Computation Thinking</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="resume.html">Resume</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1> Contact Me </h1>
+        <section>
+            <h2> Email </h2>
+            <ol>
+                <li>School: jhd002@ucsd.edu</li>
+                <li>Personal: du.jenniferl@gmail.com</li>
+            </ol>
+        </section>
+        <section>
+            <h2> LinkedIn </h2>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/jennifer-du-a23b6a165/">https://www.linkedin.com/in/jennifer-du-a23b6a165/</a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2> GitHub </h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/du-jennifer">https://github.com/du-jennifer</a>
+                </li>
+            </ul>
+        </section>
+
+        <aside>
+            <h3> Leave your contact information below! </h3>
+            <form> 
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="firstname">First name:</label>
+                    <input type="text" id="firstname" name="firstname"> 
+                    <label for="lastname">Last name:</label>
+                    <input type="text" id="lastname" name="lastname"> 
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <br><br>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+                    <br><br>
+                    <label for="linkedinurl">LinkedIn:</label>
+                    <input type="url" id="linkedinurl" name="linkedinurl">
+                    <br><br>
+                    <label for="facebookurl">Facebook:</label>
+                    <input type="url" id="facebookurl" name="facebookurl">
+                    <br><br>
+                    <label for="preferred">Choose preferred contact:</label>
+                    <select id="preferred">
+                        <optgroup label="Verbal">
+                            <option value="phone">Phone</option>
+                        </optgroup>
+                        <optgroup label="Written">
+                            <option value="email">Email</option>
+                        </optgroup>
+                        <optgroup label="Social Networking">
+                            <option value="linkedin">LinkedIn</option>
+                            <option value="facebook">Facebook</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>How did you find me?</legend>
+                    <label for="method">Please choose from list or specify if none apply:</label>
+                    <input list="methods" name="method" id="method">
+                    <datalist id="methods">
+                        <option value="In-person">
+                        <option value="LinkedIn">
+                        <option value="GitHub">
+                        <option value="Resume">
+                        <option value="Other">
+                    </datalist>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Leave me a note or any comments! </legend>
+                    <textarea rows="5" cols="50"></textarea>
+                </fieldset>
+
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </aside>
+  
+        <h3> Leave with a happy face :) </h3>
+        <button type="button">Click Me!</button>
+        <template>
+            <p> Have a good day ^-^ </p>
+            <img src="images/cat.jpeg" alt="Happy Cat" width="450" height="450">
+        </template>
+
+    </main>
+</body>
+</html>
