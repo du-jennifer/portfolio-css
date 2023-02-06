@@ -1,0 +1,42 @@
+body {
+    font-family: 'Spectral', serif;
+    /*color: #725395;*/
+    color: #695BA0;
+}
+
+h1, h2, h3 {
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+    color: #695BA0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    text-align:right;
+    width: 100%;
+}
+
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 20px 22px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align:center;
+}
+.navbar.hover {
+    background-color: #04AA6D;
+}
+.navbar li:active {
+    text-decoration: underline;
+    background-color: #04AA6D;
+}
