@@ -38,8 +38,9 @@
 }
 
 body {
-    font-family: 'Spectral', serif;
+    /*font-family: 'Spectral', serif;*/
     /*color: #725395;*/
+    font-family: 'Inter', sans-serif;
     color: #695BA0;
     padding-bottom: 25px;
 }
@@ -88,7 +89,7 @@ li a {
     padding: 20px;
    
 }
-
+/*
 li a:link {
     text-decoration: none;
 }
@@ -102,6 +103,22 @@ li a:hover {
 }
 
 li a:active {
+    text-decoration: none;
+} */
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
     text-decoration: none;
 }
 
@@ -137,3 +154,4 @@ footer {
     text-decoration: underline;
     background-color: #04AA6D;
 } */
+
