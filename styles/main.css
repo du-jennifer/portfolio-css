@@ -52,6 +52,9 @@ h1 {
     text-align: center;
     padding-bottom: 20px;
 }
+h2 {
+    font-size: 1.8em;
+}
 h1, h2, h3 {
     font-family: 'Karla', sans-serif;
     color: #695BA0;
