@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Karla:wght@700&display=swap" rel="stylesheet">
     <link rel="icon" href="images/sunflower.ico">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/about.css">
 </head>
 <body>
     <div class="layout">
@@ -24,34 +25,45 @@
         </nav>
     </header>
     <main>
-        <h1>A little about me:</h1>
+        <h1> A Little About Me </h1>
+        <div class="content">
+        <section id="intro"> 
+        <p>Hello! My name is <b> Jennifer Du </b> and I am a fourth year student studying computer science at University of California, San Diego. I
+            am also minoring in Mathematics and Business.</p>
+        </section>
         <aside>
             <span>
                 <picture>
                     <img src="images/about.jpeg" alt="About Picture" height="450" width="450">
                 </picture>
-                <video width="450" controls autoplay muted>
-                    <source src="videos/about.mp4" type="video/mp4">
-                </video>
-                <audio controls autoplay>
-                    <source src="audio/about.mp3" type="audio/mp3">
-                </audio>
+                
             </span>
         </aside>
-        <p>Hello! My name is <b> Jennifer Du </b> and I am a fourth year student studying computer science at University of California, San Diego. I
-            am also minoring in Mathematics and Business.</p>
+        <section id="snippet">
+            <video width="450" controls autoplay muted>
+                <source src="videos/about.mp4" type="video/mp4">
+            </video>
+            <audio controls autoplay>
+                <source src="audio/about.mp3" type="audio/mp3">
+            </audio>
+        </section>
+        <p> Here's a snippet of me! </p>
+        <section id="internship">
         <p>I am currently interning at <i> Northrop Grumman </i> as a software engineering intern! On my free time, I enjoy exploring new hobbies -- 
             currently I am into finding new recipes to recreate!</p>
+        </section>
         <figure> 
             <img src="images/northropinterns.jpeg" alt="Eating With LNCS Interns" height="450" width="450">
             <figcaption> Beeside Balcony with other Northrop Grumman interns :) </figcaption>
         </figure>
+        <section id="fact">
         <p>Extra fact about myself -- this is my favorite piece of code:</p>
         <pre>       <code> print('Hello World!')</code></pre>
         <p>Although Python is no longer my favorite language to use, this piece of code quite literally opened my eyes to the world. Coding Python led me 
             to a new creative and interactive space I never imagined before. Thank you -- looking forward to experience the future with you.
         </p>
-
+        </section>
+        </div>
     </main>
     <footer>
         <hr>

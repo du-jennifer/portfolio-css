@@ -1,0 +1,53 @@
+body {
+
+    background-image: url(../images/home1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+}
+h1 {
+    color: white;
+    font-size: 6em;
+}
+
+main {
+
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    margin: 0;
+    padding: 0'
+}
+footer {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+   
+  }
+* {
+
+    color:white;
+    text-align: center;
+
+}
+#buttons a{
+    border: solid #FFF 3px; 
+    border-radius: 25px;
+    padding: 10px;
+}
+h1 {
+    margin-bottom: 0px;
+    padding: 20px;
+}
+main p{
+    padding: 5px;
+}
+main section{
+    padding-top: 70px;
+}
+

@@ -1,0 +1,60 @@
+.content{
+    display:grid;
+    grid-template-columns: auto auto auto; 
+    grid-gap:1em;
+    text-align: center;
+    place-items: center;
+    
+}/*
+.content>*{
+    border: solid black 3px;
+    
+}*/
+
+
+.content>#intro{
+    grid-column: 1 / span 2;
+    width: 50ch;
+}
+
+.content>aside{
+    grid-column: 3 / span 1;
+}
+
+
+.content>#snippet{
+
+    grid-column: 1 / span 1;
+
+}
+.content>p{
+    grid-column: 2 / span 2;
+    
+}
+.content>#internship{
+    width: 50ch;
+    grid-column: 1 / span 2;
+
+}
+.content>figure{
+    grid-column: 3 / span 1;
+    
+}
+
+
+.content>#fact{
+    padding-top: 40px;
+    grid-column: 1 / span 3;
+}
+
+#fact>*{
+    padding: 10px;
+}
+
+img {
+    border: solid #E6E6FA 10px;
+}
+
+video {
+    border: solid #E6E6FA 10px;
+}
