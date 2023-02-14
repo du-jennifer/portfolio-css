@@ -1,0 +1,51 @@
+#contacts{
+    display:grid;
+    grid-template-columns: auto auto auto; 
+    text-align: center;
+    padding-bottom: 80px;
+}/*
+#contacts>*{
+    border: solid black 3px;
+    
+}  */
+
+
+#contacts>#emailcontact{
+    grid-column: 1 / span 1;
+}
+
+#contacts>#linkedcontact{
+    grid-column: 2 / span 1;
+}
+
+#contacts>#githubcontact{
+    grid-column: 3 / span 1;
+}
+
+#prompt{
+    display:grid;
+    grid-template-columns: auto auto auto; 
+    text-align: center;
+    padding-bottom: 50px;
+  
+}
+#prompt>form{
+    grid-column: 1 / span 2;
+    width: 80ch;
+}
+
+#prompt>#happy{
+    grid-column: 3 / span 1;
+}
+fieldset{
+    padding: 15px;
+}
+legend {
+    padding: 5px 10px;
+}
+
+h3 {
+    padding: 5px;
+}
+
+

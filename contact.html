@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Karla:wght@700&display=swap" rel="stylesheet">
     <link rel="icon" href="images/sunflower.ico">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/contact.css">
 </head>
 <body>
     <div class="layout">
@@ -27,14 +28,14 @@
     <main>
         <h1> Contact Me </h1>
         <div id="contacts">
-        <section>
+        <section id="emailcontact">
             <h2> Email </h2>
             <ol>
                 <li>School: jhd002@ucsd.edu</li>
                 <li>Personal: du.jenniferl@gmail.com</li>
             </ol>
         </section>
-        <section>
+        <section id="linkedcontact">
             <h2> LinkedIn </h2>
             <ul>
                 <li>
@@ -42,7 +43,7 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section id="githubcontact">
             <h2> GitHub </h2>
             <ul>
                 <li>
@@ -51,13 +52,14 @@
             </ul>
         </section>
     </div>
-        <aside>
-            <h3> Leave your contact information below! </h3>
+        <section id="prompt">
             <form> 
+                <h3> Leave your contact information below! </h3>
                 <fieldset>
                     <legend>Contact Information</legend>
                     <label for="firstname">First name:</label>
                     <input type="text" id="firstname" name="firstname"> 
+                    <br><br>
                     <label for="lastname">Last name:</label>
                     <input type="text" id="lastname" name="lastname"> 
                     <br><br>
@@ -109,15 +111,15 @@
                 <br>
                 <input type="submit" value="Submit">
             </form>
-        </aside>
-  
+        <section id="happy">
         <h3> Leave with a happy face :) </h3>
         <button type="button">Click Me!</button>
         <template>
             <p> Have a good day ^-^ </p>
             <img src="images/cat.jpeg" alt="Happy Cat" width="450" height="450">
         </template>
-
+        </section>
+    </section>
     </main>
     <footer>
         <hr>
