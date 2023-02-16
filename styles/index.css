@@ -35,10 +35,17 @@ footer {
     text-align: center;
 
 }
+
 #buttons a{
-    border: solid #FFF 3px; 
-    border-radius: 25px;
-    padding: 10px;
+    border: solid #FFF 2.5px; 
+    border-radius: 30px;
+    padding: 12px 20px;
+    margin: 5px;
+}
+
+#buttons a:hover{
+    background-color: rgba(255,255,255, 0.3);
+    text-decoration: none;
 }
 
 main p{
