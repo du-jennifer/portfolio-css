@@ -95,6 +95,9 @@ button:hover {
 }
 
 @media (max-width: 1200px) {
+    body {
+        overflow-x: hidden !important;
+    }
     svg {
         transition: transform 2s;
       }
@@ -267,6 +270,9 @@ button:hover {
 
     * {
         font-size: 1.1vh;
+    }
+    p {
+        font-size: 1.5vh;
     }
 
     fieldset {

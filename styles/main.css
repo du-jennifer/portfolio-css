@@ -128,7 +128,9 @@ footer {
 
 
 @media (max-width: 945px) {
-
+    body {
+        overflow-x: hidden !important;
+    }
 #toggle
 {
   display: block;

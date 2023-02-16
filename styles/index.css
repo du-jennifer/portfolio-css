@@ -90,6 +90,9 @@ h1 {
 100% { opacity: 1; }
 }
 @media (max-width: 1270px) {
+    body {
+        overflow-x: hidden !important;
+    }
     h1{
         font-size: 85px;
     }
