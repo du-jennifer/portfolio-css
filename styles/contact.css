@@ -171,18 +171,6 @@ button:hover {
     * {
         font-size: 1.5vh;
     }
-    nav ul {
-        padding-top: 135px;
-    }
-
-    nav ul li{
-        padding: 16px;
-    }
-
-    nav ul li a{
-        font-size: 22px;;
-    }
-
 
     fieldset {
         width: 600px;
@@ -203,9 +191,6 @@ button:hover {
 
 
 @media (max-width: 600px) {
-    nav ul li a{
-        font-size:20px;;
-    }
     #contacts{
         display:grid;
         grid-template-columns: 1fr; 
