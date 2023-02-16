@@ -5,12 +5,7 @@
     text-align: center;
     place-items: center;
     
-}/*
-.content>*{
-    border: solid black 3px;
-    
-}*/
-
+}
 
 .content>#intro{
     grid-column: 1 / span 2;
