@@ -71,6 +71,9 @@ video {
     .content>#internship{
         width: 40ch;
     }
+    footer a{
+        font-size: 14px;
+    }
 
 }
 @media (max-width: 945px) {
@@ -121,6 +124,9 @@ video {
         font-size: 1.1vh;
     }
     p {
+        font-size: 1.5vh;
+    }
+    footer a{
         font-size: 1.5vh;
     }
 }
