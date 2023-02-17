@@ -7,7 +7,10 @@ img {
 h1 {
     padding-bottom: 0;
 }
-
+html,body {
+    margin: 0;
+    height: 100%;
+}
 /*
 svg, canvas {
     display: none;
@@ -41,5 +44,6 @@ svg, canvas {
     footer a {
         font-size: 1.5vh;
     }
+    
 
 }

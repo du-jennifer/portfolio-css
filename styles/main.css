@@ -2,6 +2,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
+}
+
+a {
+    -webkit-tap-highlight-color: transparent;
 }
 main {
     margin: 0;
@@ -86,6 +91,7 @@ ul, ol {
     #toggle input {
         display:none;
     }
+
 }
  
 nav ul li a {
@@ -122,9 +128,17 @@ footer {
 
 
 @media (max-width: 945px) {
-    body {
+           
+    nav ul li a:active {
+        color: black;
+    }
+    html, body {
         overflow-x: hidden !important;
     }
+    body {
+        position: relative;
+      }
+
 #toggle
 {
   display: block;
@@ -196,7 +210,7 @@ nav ul
 {
   position: absolute;
   width: 500px;
-  height: 1000px;
+  height: 620px;
   margin: -120px 0 0 0;
   padding: 50px;
   padding-top: 120px;
@@ -205,6 +219,7 @@ nav ul
   transform-origin: 0% 0%;
   transform: translate(100%, 0);
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  display:hidden;
 }
 
 nav ul li
@@ -219,6 +234,7 @@ nav ul li
 {
   transform: none;
   opacity: 1;
+  display: block;
 }
 
 nav ul {
@@ -242,5 +258,22 @@ nav ul li a{
     nav ul li a{
         font-size:18px;
     }
+    footer p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    nav ul {
+        width: 450px;
+    }
+    
 }
 
+@media (max-width: 300px) {
+    nav ul li a{
+        font-size:14px;
+    }
+    nav ul {
+        width: 350px;
+    }
+    
+}

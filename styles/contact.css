@@ -112,6 +112,7 @@ button:hover {
         margin: auto;
 
     }
+
     #happyface {
         grid-column-gap: 10px;
         grid-row-gap: 10px;
@@ -172,7 +173,7 @@ button:hover {
 }
 @media (max-width: 945px) {
     * {
-        font-size: 1.5vh;
+        font-size: 1.3vh;
     }
 
     fieldset {
@@ -181,6 +182,15 @@ button:hover {
         margin: auto;
 
     }
+    fieldset, input, textarea, select {
+        border: 1px solid black;
+
+    }
+    input, textarea, select {
+        border-radius: 4px;
+    }
+    
+   
 }
 
 @media (max-width: 800px) {
@@ -309,6 +319,38 @@ button:hover {
         border-radius: 2px;
     }
 
+}
+@media (max-width: 500px) {
+    fieldset {
+        width: 300px;
+        display: block;
+        margin: auto;
+    }
+    main {
+        margin: 0;
+    }
+    * {
+        font-size: 0.9vh;
+    }
+    textarea {
+        width: 40ch;
+    }
+    div,section {
+        grid-column-gap: 0px;
+    }
+
+
+}
+
+@media (max-width: 300px) {
+    * {
+        font-size: 0.8vh;
+    }
+    fieldset {
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
 }
 
 
