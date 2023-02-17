@@ -94,6 +94,15 @@ button:hover {
     background-color: rgba(105, 91, 160, 0.2);
 }
 
+@media (pointer: coarse) {
+    
+    #happyface>button:before{
+        content: "Tap Or ";
+    }
+    
+} 
+    
+
 @media (max-width: 1200px) {
     body {
         overflow-x: hidden !important;

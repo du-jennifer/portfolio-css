@@ -131,7 +131,7 @@ video {
 
 @media (max-width: 500px) {
     * {
-        font-size: 0.6vh;
+        font-size: 1vh;
     }
     main {
         margin: 0;
